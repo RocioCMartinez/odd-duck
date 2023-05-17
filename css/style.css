@@ -25,6 +25,7 @@ section{
 
 section img{
   height: 300px;
+  width: 400px;
 }
 
 button{
@@ -37,24 +38,6 @@ div{
   padding: 20px;
   display: flex;
   justify-content: center;
-}
-
-ul{
-  display: inline-flex;
-  flex-wrap: wrap;
-  width: 80vw;
-  margin-left: 150px;
-  background-color: rgb(91, 124, 245); 
-
-}
-
-ul li{
-  
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-weight: bold;
 }
 
 article{
