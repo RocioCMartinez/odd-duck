@@ -1,6 +1,6 @@
 'use strict';
 
-// GLOBAL EXPRESSIONS //
+// GLOBAL VARIABLES //
 let votingRounds = 25;
 let productArray = [];
 
@@ -45,21 +45,8 @@ function renderImgs() {
   let imgIndexOne = indexArray.shift();
   let imgIndexTwo = indexArray.shift();
   let imgIndexThree = indexArray.shift();
-  // console.log(indexArray);
 
-  // indexArray.slice(0,4);
-  // console.log(indexArray);
-  // let clearArray = indexArray.shift(4);
-  // console.log(clearArray);
-  // while (indexArray.length === 3) {
-  //   let indexArray = [];
-  // }
 
-  // Loop that checks the conditions of the images/ are they the same(index number)?
-  // while (imgIndexOne === imgIndexTwo || imgIndexTwo === imgIndexThree || imgIndexOne === imgIndexThree) {
-  //   imgIndexTwo = randomIGenerator();
-  //   imgIndexThree = randomIGenerator();
-  // }
 
   // Assigning source paths and titles(based off objects names) to numbers generated to make a valid entry
   imgOne.src = productArray[imgIndexOne].image;
